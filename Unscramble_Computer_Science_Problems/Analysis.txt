@@ -1,0 +1,31 @@
+# Runtime analysis
+
+# Task 0:
+Runtime: o(1)
+
+Here we have printed two print statements and to access the data we have used indexing, which locates the exact location
+to access the data.
+
+# Task 1:
+Runtime:2*o(n) --> o(n)
+
+Here we have used two different list comprehension that works like for loop (although in some articles it is stated that
+ list comprehension is faster than for loop), that takes time complexity of 2*o(n).
+
+# Task 2:
+Runtime: 3*o(n) --> o(n)
+
+Here 3 for loops have been used, for loop takes time complexity of o(n) since 3 for loop therefore 3*o(n) ~ o(n)
+
+# Task 3:
+Runtime: o(n*log n)
+
+Here two for loops have been used 2*o(n)~o(n)
+Sorting list operation takes n(n*log n)
+
+# Task 4:
+Runtime: 3*o(n*log n) --> o(n*log n)
+
+Here 3 loops have been used and one sorting operation.
+
+Here we have used 3 list comprehension and one for loop and one sorting operation.
