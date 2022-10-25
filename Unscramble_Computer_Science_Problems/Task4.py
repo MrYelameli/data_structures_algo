@@ -43,6 +43,7 @@ for i in call_outgoing:
     if i not in unique:
         telemarketing_numbers.append(i)
 
+telemarketing_numbers_ = list(sorted(set(telemarketing_numbers)))
 print("These numbers could be telemarketers:")
-for t in telemarketing_numbers:
+for t in telemarketing_numbers_:
     print(t)

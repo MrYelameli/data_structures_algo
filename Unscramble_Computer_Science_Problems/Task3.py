@@ -65,8 +65,9 @@ for caller,receiver,_,_ in calls:
     if blr_call(caller):
         blr_called_prefix.append(area_code(receiver))
 
+blr_called_prefix_=list(sorted(set(blr_called_prefix)))
 print("The numbers called by people in Bangalore have codes:")
-for i in blr_called_prefix:
+for i in blr_called_prefix_:
     print(i)
 
 #-------------------------Part B -------------------------------#

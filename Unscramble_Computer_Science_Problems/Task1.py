@@ -22,4 +22,4 @@ Print a message:
 unique_numbers=set()
 [unique_numbers.update([i[0],i[1]]) for i in texts] #(O(n))
 [unique_numbers.update([i[0],i[1]]) for i in calls] #(O(n)
-print(len(unique_numbers)) #(0(1))
+print("There are {} different telephone numbers in the records.".format(len(unique_numbers))) #(0(1))
